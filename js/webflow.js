@@ -31115,6 +31115,7 @@ var SharedConfig = function () {
     currency: 'USD',
     units: 'imperial',
     priceIncludesTax: false,
+    continent: 'NA',
     group: 'Popular countries'
   }, {
     code: 'GB',
@@ -31123,6 +31124,7 @@ var SharedConfig = function () {
     currency: 'GBP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'Popular countries'
   }, {
     code: 'CA',
@@ -31131,8 +31133,9 @@ var SharedConfig = function () {
     currency: 'CAD',
     units: 'metric',
     priceIncludesTax: false,
+    continent: 'NA',
     group: 'Popular countries'
-  }]; // Built by running `./bin/babel-run ./ops/entrypoints/server/refreshCountryList`
+  }]; // Built by running `./bin/babel-run ./entrypoints/server/ops/refreshCountryList.js`
 
   api.commerceCountryList = [{
     code: 'AF',
@@ -31141,6 +31144,7 @@ var SharedConfig = function () {
     currency: 'AFN',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'AX',
@@ -31149,6 +31153,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'AL',
@@ -31157,6 +31162,7 @@ var SharedConfig = function () {
     currency: 'ALL',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'DZ',
@@ -31165,6 +31171,7 @@ var SharedConfig = function () {
     currency: 'DZD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'AS',
@@ -31173,6 +31180,7 @@ var SharedConfig = function () {
     currency: 'USD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'AD',
@@ -31181,6 +31189,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'AO',
@@ -31189,6 +31198,7 @@ var SharedConfig = function () {
     currency: 'AOA',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'AI',
@@ -31197,6 +31207,7 @@ var SharedConfig = function () {
     currency: 'XCD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'AG',
@@ -31205,6 +31216,7 @@ var SharedConfig = function () {
     currency: 'XCD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'AR',
@@ -31213,6 +31225,7 @@ var SharedConfig = function () {
     currency: 'ARS',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'SA',
     group: 'All countries'
   }, {
     code: 'AM',
@@ -31221,6 +31234,7 @@ var SharedConfig = function () {
     currency: 'AMD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'AW',
@@ -31229,6 +31243,7 @@ var SharedConfig = function () {
     currency: 'AWG',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'AU',
@@ -31237,6 +31252,7 @@ var SharedConfig = function () {
     currency: 'AUD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'AT',
@@ -31245,6 +31261,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'AZ',
@@ -31253,6 +31270,7 @@ var SharedConfig = function () {
     currency: 'AZN',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'BS',
@@ -31261,6 +31279,7 @@ var SharedConfig = function () {
     currency: 'BSD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'BH',
@@ -31269,6 +31288,7 @@ var SharedConfig = function () {
     currency: 'BHD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'BD',
@@ -31277,6 +31297,7 @@ var SharedConfig = function () {
     currency: 'BDT',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'BB',
@@ -31285,6 +31306,7 @@ var SharedConfig = function () {
     currency: 'BBD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'BY',
@@ -31293,6 +31315,7 @@ var SharedConfig = function () {
     currency: 'BYN',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'BE',
@@ -31301,6 +31324,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'BZ',
@@ -31309,6 +31333,7 @@ var SharedConfig = function () {
     currency: 'BZD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'BJ',
@@ -31317,6 +31342,7 @@ var SharedConfig = function () {
     currency: 'XOF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'BM',
@@ -31325,6 +31351,7 @@ var SharedConfig = function () {
     currency: 'BMD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'BT',
@@ -31333,6 +31360,7 @@ var SharedConfig = function () {
     currency: 'BTN',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'BO',
@@ -31341,6 +31369,7 @@ var SharedConfig = function () {
     currency: 'BOB',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'SA',
     group: 'All countries'
   }, {
     code: 'BQ',
@@ -31349,6 +31378,7 @@ var SharedConfig = function () {
     currency: 'USD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'BA',
@@ -31357,6 +31387,7 @@ var SharedConfig = function () {
     currency: 'BAM',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'BW',
@@ -31365,6 +31396,7 @@ var SharedConfig = function () {
     currency: 'BWP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'BR',
@@ -31373,6 +31405,7 @@ var SharedConfig = function () {
     currency: 'BRL',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'SA',
     group: 'All countries'
   }, {
     code: 'IO',
@@ -31381,6 +31414,7 @@ var SharedConfig = function () {
     currency: 'USD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'VG',
@@ -31389,6 +31423,7 @@ var SharedConfig = function () {
     currency: 'USD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'BN',
@@ -31397,6 +31432,7 @@ var SharedConfig = function () {
     currency: 'BND',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'BG',
@@ -31405,6 +31441,7 @@ var SharedConfig = function () {
     currency: 'BGN',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'BF',
@@ -31413,6 +31450,7 @@ var SharedConfig = function () {
     currency: 'XOF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'BI',
@@ -31421,6 +31459,16 @@ var SharedConfig = function () {
     currency: 'BIF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
+    group: 'All countries'
+  }, {
+    code: 'CV',
+    code3: 'CPV',
+    name: 'Cabo Verde',
+    currency: 'CVE',
+    units: 'metric',
+    priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'KH',
@@ -31429,6 +31477,7 @@ var SharedConfig = function () {
     currency: 'KHR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'CM',
@@ -31437,6 +31486,7 @@ var SharedConfig = function () {
     currency: 'XAF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'CA',
@@ -31445,14 +31495,7 @@ var SharedConfig = function () {
     currency: 'CAD',
     units: 'metric',
     priceIncludesTax: false,
-    group: 'All countries'
-  }, {
-    code: 'CV',
-    code3: 'CPV',
-    name: 'Cape Verde',
-    currency: 'CVE',
-    units: 'metric',
-    priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'KY',
@@ -31461,6 +31504,7 @@ var SharedConfig = function () {
     currency: 'KYD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'CF',
@@ -31469,6 +31513,7 @@ var SharedConfig = function () {
     currency: 'XAF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'TD',
@@ -31477,6 +31522,7 @@ var SharedConfig = function () {
     currency: 'XAF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'CL',
@@ -31485,6 +31531,7 @@ var SharedConfig = function () {
     currency: 'CLP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'SA',
     group: 'All countries'
   }, {
     code: 'CN',
@@ -31493,6 +31540,7 @@ var SharedConfig = function () {
     currency: 'CNY',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'CX',
@@ -31501,6 +31549,7 @@ var SharedConfig = function () {
     currency: 'AUD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'CC',
@@ -31509,6 +31558,7 @@ var SharedConfig = function () {
     currency: 'AUD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'CO',
@@ -31517,6 +31567,7 @@ var SharedConfig = function () {
     currency: 'COP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'SA',
     group: 'All countries'
   }, {
     code: 'KM',
@@ -31525,6 +31576,7 @@ var SharedConfig = function () {
     currency: 'KMF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'CK',
@@ -31533,6 +31585,7 @@ var SharedConfig = function () {
     currency: 'NZD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'CR',
@@ -31541,6 +31594,7 @@ var SharedConfig = function () {
     currency: 'CRC',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'HR',
@@ -31549,6 +31603,7 @@ var SharedConfig = function () {
     currency: 'HRK',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'CU',
@@ -31557,6 +31612,7 @@ var SharedConfig = function () {
     currency: 'CUP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'CW',
@@ -31565,6 +31621,7 @@ var SharedConfig = function () {
     currency: 'ANG',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'CY',
@@ -31573,6 +31630,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'CZ',
@@ -31581,6 +31639,7 @@ var SharedConfig = function () {
     currency: 'CZK',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'CD',
@@ -31589,6 +31648,7 @@ var SharedConfig = function () {
     currency: 'CDF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'DK',
@@ -31597,6 +31657,7 @@ var SharedConfig = function () {
     currency: 'DKK',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'DJ',
@@ -31605,6 +31666,7 @@ var SharedConfig = function () {
     currency: 'DJF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'DM',
@@ -31613,6 +31675,7 @@ var SharedConfig = function () {
     currency: 'XCD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'DO',
@@ -31621,6 +31684,7 @@ var SharedConfig = function () {
     currency: 'DOP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'EC',
@@ -31629,6 +31693,7 @@ var SharedConfig = function () {
     currency: 'USD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'SA',
     group: 'All countries'
   }, {
     code: 'EG',
@@ -31637,6 +31702,7 @@ var SharedConfig = function () {
     currency: 'EGP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'SV',
@@ -31645,6 +31711,7 @@ var SharedConfig = function () {
     currency: 'USD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'GQ',
@@ -31653,6 +31720,7 @@ var SharedConfig = function () {
     currency: 'XAF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'ER',
@@ -31661,6 +31729,7 @@ var SharedConfig = function () {
     currency: 'ERN',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'EE',
@@ -31669,6 +31738,16 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
+    group: 'All countries'
+  }, {
+    code: 'SZ',
+    code3: 'SWZ',
+    name: 'Eswatini',
+    currency: 'SZL',
+    units: 'metric',
+    priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'ET',
@@ -31677,6 +31756,7 @@ var SharedConfig = function () {
     currency: 'ETB',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'FK',
@@ -31685,6 +31765,7 @@ var SharedConfig = function () {
     currency: 'FKP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'SA',
     group: 'All countries'
   }, {
     code: 'FO',
@@ -31693,6 +31774,7 @@ var SharedConfig = function () {
     currency: 'DKK',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'FJ',
@@ -31701,6 +31783,7 @@ var SharedConfig = function () {
     currency: 'FJD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'FI',
@@ -31709,6 +31792,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'FR',
@@ -31717,6 +31801,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'GF',
@@ -31725,6 +31810,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'SA',
     group: 'All countries'
   }, {
     code: 'PF',
@@ -31733,6 +31819,7 @@ var SharedConfig = function () {
     currency: 'XPF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'TF',
@@ -31741,6 +31828,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AN',
     group: 'All countries'
   }, {
     code: 'GA',
@@ -31749,6 +31837,7 @@ var SharedConfig = function () {
     currency: 'XAF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'GM',
@@ -31757,6 +31846,7 @@ var SharedConfig = function () {
     currency: 'GMD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'GE',
@@ -31765,6 +31855,7 @@ var SharedConfig = function () {
     currency: 'GEL',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'DE',
@@ -31773,6 +31864,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'GH',
@@ -31781,6 +31873,7 @@ var SharedConfig = function () {
     currency: 'GHS',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'GI',
@@ -31789,6 +31882,7 @@ var SharedConfig = function () {
     currency: 'GIP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'GR',
@@ -31797,6 +31891,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'GL',
@@ -31805,6 +31900,7 @@ var SharedConfig = function () {
     currency: 'DKK',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'GD',
@@ -31813,6 +31909,7 @@ var SharedConfig = function () {
     currency: 'XCD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'GP',
@@ -31821,6 +31918,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'GU',
@@ -31829,6 +31927,7 @@ var SharedConfig = function () {
     currency: 'USD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'GT',
@@ -31837,6 +31936,7 @@ var SharedConfig = function () {
     currency: 'GTQ',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'GG',
@@ -31845,6 +31945,7 @@ var SharedConfig = function () {
     currency: 'GBP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'GN',
@@ -31853,6 +31954,7 @@ var SharedConfig = function () {
     currency: 'GNF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'GW',
@@ -31861,6 +31963,7 @@ var SharedConfig = function () {
     currency: 'XOF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'GY',
@@ -31869,6 +31972,7 @@ var SharedConfig = function () {
     currency: 'GYD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'SA',
     group: 'All countries'
   }, {
     code: 'HT',
@@ -31877,6 +31981,7 @@ var SharedConfig = function () {
     currency: 'HTG',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'HN',
@@ -31885,6 +31990,7 @@ var SharedConfig = function () {
     currency: 'HNL',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'HK',
@@ -31893,6 +31999,7 @@ var SharedConfig = function () {
     currency: 'HKD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'HU',
@@ -31901,6 +32008,7 @@ var SharedConfig = function () {
     currency: 'HUF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'IS',
@@ -31909,6 +32017,7 @@ var SharedConfig = function () {
     currency: 'ISK',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'IN',
@@ -31917,6 +32026,7 @@ var SharedConfig = function () {
     currency: 'INR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'ID',
@@ -31925,6 +32035,7 @@ var SharedConfig = function () {
     currency: 'IDR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'IR',
@@ -31933,6 +32044,7 @@ var SharedConfig = function () {
     currency: 'IRR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'IQ',
@@ -31941,6 +32053,7 @@ var SharedConfig = function () {
     currency: 'IQD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'IE',
@@ -31949,6 +32062,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'IM',
@@ -31957,6 +32071,7 @@ var SharedConfig = function () {
     currency: 'GBP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'IL',
@@ -31965,6 +32080,7 @@ var SharedConfig = function () {
     currency: 'ILS',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'IT',
@@ -31973,6 +32089,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'CI',
@@ -31981,6 +32098,7 @@ var SharedConfig = function () {
     currency: 'XOF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'JM',
@@ -31989,6 +32107,7 @@ var SharedConfig = function () {
     currency: 'JMD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'JP',
@@ -31997,6 +32116,7 @@ var SharedConfig = function () {
     currency: 'JPY',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'JE',
@@ -32005,6 +32125,7 @@ var SharedConfig = function () {
     currency: 'GBP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'JO',
@@ -32013,6 +32134,7 @@ var SharedConfig = function () {
     currency: 'JOD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'KZ',
@@ -32021,6 +32143,7 @@ var SharedConfig = function () {
     currency: 'KZT',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'KE',
@@ -32029,6 +32152,7 @@ var SharedConfig = function () {
     currency: 'KES',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'KI',
@@ -32037,6 +32161,7 @@ var SharedConfig = function () {
     currency: 'AUD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'XK',
@@ -32045,6 +32170,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'KW',
@@ -32053,6 +32179,7 @@ var SharedConfig = function () {
     currency: 'KWD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'KG',
@@ -32061,6 +32188,7 @@ var SharedConfig = function () {
     currency: 'KGS',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'LA',
@@ -32069,6 +32197,7 @@ var SharedConfig = function () {
     currency: 'LAK',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'LV',
@@ -32077,6 +32206,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'LB',
@@ -32085,6 +32215,7 @@ var SharedConfig = function () {
     currency: 'LBP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'LS',
@@ -32093,6 +32224,7 @@ var SharedConfig = function () {
     currency: 'LSL',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'LR',
@@ -32101,6 +32233,7 @@ var SharedConfig = function () {
     currency: 'LRD',
     units: 'imperial',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'LY',
@@ -32109,6 +32242,7 @@ var SharedConfig = function () {
     currency: 'LYD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'LI',
@@ -32117,6 +32251,7 @@ var SharedConfig = function () {
     currency: 'CHF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'LT',
@@ -32125,6 +32260,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'LU',
@@ -32133,6 +32269,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'MO',
@@ -32141,14 +32278,7 @@ var SharedConfig = function () {
     currency: 'MOP',
     units: 'metric',
     priceIncludesTax: true,
-    group: 'All countries'
-  }, {
-    code: 'MK',
-    code3: 'MKD',
-    name: 'Macedonia',
-    currency: 'MKD',
-    units: 'metric',
-    priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'MG',
@@ -32157,6 +32287,7 @@ var SharedConfig = function () {
     currency: 'MGA',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'MW',
@@ -32165,6 +32296,7 @@ var SharedConfig = function () {
     currency: 'MWK',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'MY',
@@ -32173,6 +32305,7 @@ var SharedConfig = function () {
     currency: 'MYR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'MV',
@@ -32181,6 +32314,7 @@ var SharedConfig = function () {
     currency: 'MVR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'ML',
@@ -32189,6 +32323,7 @@ var SharedConfig = function () {
     currency: 'XOF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'MT',
@@ -32197,6 +32332,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'MH',
@@ -32205,6 +32341,7 @@ var SharedConfig = function () {
     currency: 'USD',
     units: 'imperial',
     priceIncludesTax: false,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'MQ',
@@ -32213,14 +32350,16 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'MR',
     code3: 'MRT',
     name: 'Mauritania',
-    currency: 'MRO',
+    currency: 'MRU',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'MU',
@@ -32229,6 +32368,7 @@ var SharedConfig = function () {
     currency: 'MUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'YT',
@@ -32237,6 +32377,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'MX',
@@ -32245,6 +32386,7 @@ var SharedConfig = function () {
     currency: 'MXN',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'FM',
@@ -32253,6 +32395,7 @@ var SharedConfig = function () {
     currency: 'USD',
     units: 'imperial',
     priceIncludesTax: false,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'MD',
@@ -32261,6 +32404,7 @@ var SharedConfig = function () {
     currency: 'MDL',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'MC',
@@ -32269,6 +32413,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'MN',
@@ -32277,6 +32422,7 @@ var SharedConfig = function () {
     currency: 'MNT',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'ME',
@@ -32285,6 +32431,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'MS',
@@ -32293,6 +32440,7 @@ var SharedConfig = function () {
     currency: 'XCD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'MA',
@@ -32301,6 +32449,7 @@ var SharedConfig = function () {
     currency: 'MAD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'MZ',
@@ -32309,6 +32458,7 @@ var SharedConfig = function () {
     currency: 'MZN',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'MM',
@@ -32317,6 +32467,7 @@ var SharedConfig = function () {
     currency: 'MMK',
     units: 'imperial',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'NA',
@@ -32325,6 +32476,7 @@ var SharedConfig = function () {
     currency: 'NAD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'NR',
@@ -32333,6 +32485,7 @@ var SharedConfig = function () {
     currency: 'AUD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'NP',
@@ -32341,6 +32494,7 @@ var SharedConfig = function () {
     currency: 'NPR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'NL',
@@ -32349,6 +32503,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'NC',
@@ -32357,6 +32512,7 @@ var SharedConfig = function () {
     currency: 'XPF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'NZ',
@@ -32365,6 +32521,7 @@ var SharedConfig = function () {
     currency: 'NZD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'NI',
@@ -32373,6 +32530,7 @@ var SharedConfig = function () {
     currency: 'NIO',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'NE',
@@ -32381,6 +32539,7 @@ var SharedConfig = function () {
     currency: 'XOF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'NG',
@@ -32389,6 +32548,7 @@ var SharedConfig = function () {
     currency: 'NGN',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'NU',
@@ -32397,6 +32557,7 @@ var SharedConfig = function () {
     currency: 'NZD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'NF',
@@ -32405,6 +32566,7 @@ var SharedConfig = function () {
     currency: 'AUD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'KP',
@@ -32413,6 +32575,16 @@ var SharedConfig = function () {
     currency: 'KPW',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
+    group: 'All countries'
+  }, {
+    code: 'MK',
+    code3: 'MKD',
+    name: 'North Macedonia',
+    currency: 'MKD',
+    units: 'metric',
+    priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'MP',
@@ -32421,6 +32593,7 @@ var SharedConfig = function () {
     currency: 'USD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'NO',
@@ -32429,6 +32602,7 @@ var SharedConfig = function () {
     currency: 'NOK',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'OM',
@@ -32437,6 +32611,7 @@ var SharedConfig = function () {
     currency: 'OMR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'PK',
@@ -32445,6 +32620,7 @@ var SharedConfig = function () {
     currency: 'PKR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'PW',
@@ -32453,6 +32629,7 @@ var SharedConfig = function () {
     currency: 'USD',
     units: 'imperial',
     priceIncludesTax: false,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'PS',
@@ -32461,6 +32638,7 @@ var SharedConfig = function () {
     currency: 'ILS',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'PA',
@@ -32469,6 +32647,7 @@ var SharedConfig = function () {
     currency: 'PAB',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'PG',
@@ -32477,6 +32656,7 @@ var SharedConfig = function () {
     currency: 'PGK',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'PY',
@@ -32485,6 +32665,7 @@ var SharedConfig = function () {
     currency: 'PYG',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'SA',
     group: 'All countries'
   }, {
     code: 'PE',
@@ -32493,6 +32674,7 @@ var SharedConfig = function () {
     currency: 'PEN',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'SA',
     group: 'All countries'
   }, {
     code: 'PH',
@@ -32501,6 +32683,7 @@ var SharedConfig = function () {
     currency: 'PHP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'PN',
@@ -32509,6 +32692,7 @@ var SharedConfig = function () {
     currency: 'NZD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'PL',
@@ -32517,6 +32701,7 @@ var SharedConfig = function () {
     currency: 'PLN',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'PT',
@@ -32525,6 +32710,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'PR',
@@ -32533,6 +32719,7 @@ var SharedConfig = function () {
     currency: 'USD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'QA',
@@ -32541,6 +32728,7 @@ var SharedConfig = function () {
     currency: 'QAR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'CG',
@@ -32549,6 +32737,7 @@ var SharedConfig = function () {
     currency: 'XAF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'RE',
@@ -32557,6 +32746,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'RO',
@@ -32565,6 +32755,7 @@ var SharedConfig = function () {
     currency: 'RON',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'RU',
@@ -32573,6 +32764,7 @@ var SharedConfig = function () {
     currency: 'RUB',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'RW',
@@ -32581,6 +32773,7 @@ var SharedConfig = function () {
     currency: 'RWF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'BL',
@@ -32589,6 +32782,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'SH',
@@ -32597,6 +32791,7 @@ var SharedConfig = function () {
     currency: 'SHP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'KN',
@@ -32605,6 +32800,7 @@ var SharedConfig = function () {
     currency: 'XCD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'LC',
@@ -32613,6 +32809,7 @@ var SharedConfig = function () {
     currency: 'XCD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'MF',
@@ -32621,6 +32818,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'PM',
@@ -32629,6 +32827,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'VC',
@@ -32637,6 +32836,7 @@ var SharedConfig = function () {
     currency: 'XCD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'WS',
@@ -32645,6 +32845,7 @@ var SharedConfig = function () {
     currency: 'WST',
     units: 'imperial',
     priceIncludesTax: false,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'SM',
@@ -32653,14 +32854,16 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'ST',
     code3: 'STP',
     name: 'Sao Tome and Principe',
-    currency: 'STD',
+    currency: 'STN',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'SA',
@@ -32669,6 +32872,7 @@ var SharedConfig = function () {
     currency: 'SAR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'SN',
@@ -32677,6 +32881,7 @@ var SharedConfig = function () {
     currency: 'XOF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'RS',
@@ -32685,6 +32890,7 @@ var SharedConfig = function () {
     currency: 'RSD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'SC',
@@ -32693,6 +32899,7 @@ var SharedConfig = function () {
     currency: 'SCR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'SL',
@@ -32701,6 +32908,7 @@ var SharedConfig = function () {
     currency: 'SLL',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'SG',
@@ -32709,6 +32917,7 @@ var SharedConfig = function () {
     currency: 'SGD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'SX',
@@ -32717,6 +32926,7 @@ var SharedConfig = function () {
     currency: 'ANG',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'SK',
@@ -32725,6 +32935,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'SI',
@@ -32733,6 +32944,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'SB',
@@ -32741,6 +32953,7 @@ var SharedConfig = function () {
     currency: 'SBD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'SO',
@@ -32749,6 +32962,7 @@ var SharedConfig = function () {
     currency: 'SOS',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'ZA',
@@ -32757,6 +32971,7 @@ var SharedConfig = function () {
     currency: 'ZAR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'GS',
@@ -32765,6 +32980,7 @@ var SharedConfig = function () {
     currency: 'GBP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AN',
     group: 'All countries'
   }, {
     code: 'KR',
@@ -32773,6 +32989,7 @@ var SharedConfig = function () {
     currency: 'KRW',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'SS',
@@ -32781,6 +32998,7 @@ var SharedConfig = function () {
     currency: 'SSP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'ES',
@@ -32789,6 +33007,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'LK',
@@ -32797,6 +33016,7 @@ var SharedConfig = function () {
     currency: 'LKR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'SD',
@@ -32805,6 +33025,7 @@ var SharedConfig = function () {
     currency: 'SDG',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'SR',
@@ -32813,6 +33034,7 @@ var SharedConfig = function () {
     currency: 'SRD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'SA',
     group: 'All countries'
   }, {
     code: 'SJ',
@@ -32821,14 +33043,7 @@ var SharedConfig = function () {
     currency: 'NOK',
     units: 'metric',
     priceIncludesTax: true,
-    group: 'All countries'
-  }, {
-    code: 'SZ',
-    code3: 'SWZ',
-    name: 'Swaziland',
-    currency: 'SZL',
-    units: 'metric',
-    priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'SE',
@@ -32837,6 +33052,7 @@ var SharedConfig = function () {
     currency: 'SEK',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'CH',
@@ -32845,6 +33061,7 @@ var SharedConfig = function () {
     currency: 'CHF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'SY',
@@ -32853,6 +33070,7 @@ var SharedConfig = function () {
     currency: 'SYP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'TW',
@@ -32861,6 +33079,7 @@ var SharedConfig = function () {
     currency: 'TWD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'TJ',
@@ -32869,6 +33088,7 @@ var SharedConfig = function () {
     currency: 'TJS',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'TZ',
@@ -32877,6 +33097,7 @@ var SharedConfig = function () {
     currency: 'TZS',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'TH',
@@ -32885,6 +33106,7 @@ var SharedConfig = function () {
     currency: 'THB',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'TL',
@@ -32893,6 +33115,7 @@ var SharedConfig = function () {
     currency: 'USD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'TG',
@@ -32901,6 +33124,7 @@ var SharedConfig = function () {
     currency: 'XOF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'TK',
@@ -32909,6 +33133,7 @@ var SharedConfig = function () {
     currency: 'NZD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'TO',
@@ -32917,6 +33142,7 @@ var SharedConfig = function () {
     currency: 'TOP',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'TT',
@@ -32925,6 +33151,7 @@ var SharedConfig = function () {
     currency: 'TTD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'TN',
@@ -32933,6 +33160,7 @@ var SharedConfig = function () {
     currency: 'TND',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'TR',
@@ -32941,6 +33169,7 @@ var SharedConfig = function () {
     currency: 'TRY',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'TM',
@@ -32949,6 +33178,7 @@ var SharedConfig = function () {
     currency: 'TMT',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'TC',
@@ -32957,6 +33187,7 @@ var SharedConfig = function () {
     currency: 'USD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'TV',
@@ -32965,6 +33196,7 @@ var SharedConfig = function () {
     currency: 'AUD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'VI',
@@ -32973,6 +33205,7 @@ var SharedConfig = function () {
     currency: 'USD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'NA',
     group: 'All countries'
   }, {
     code: 'UG',
@@ -32981,6 +33214,7 @@ var SharedConfig = function () {
     currency: 'UGX',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'UA',
@@ -32989,6 +33223,7 @@ var SharedConfig = function () {
     currency: 'UAH',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'AE',
@@ -32997,6 +33232,7 @@ var SharedConfig = function () {
     currency: 'AED',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'GB',
@@ -33005,14 +33241,7 @@ var SharedConfig = function () {
     currency: 'GBP',
     units: 'metric',
     priceIncludesTax: true,
-    group: 'All countries'
-  }, {
-    code: 'UM',
-    code3: 'UMI',
-    name: 'United States Minor Outlying Islands',
-    currency: 'USD',
-    units: 'imperial',
-    priceIncludesTax: false,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'US',
@@ -33021,6 +33250,16 @@ var SharedConfig = function () {
     currency: 'USD',
     units: 'imperial',
     priceIncludesTax: false,
+    continent: 'NA',
+    group: 'All countries'
+  }, {
+    code: 'UM',
+    code3: 'UMI',
+    name: 'United States Minor Outlying Islands',
+    currency: 'USD',
+    units: 'imperial',
+    priceIncludesTax: false,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'UY',
@@ -33029,6 +33268,7 @@ var SharedConfig = function () {
     currency: 'UYU',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'SA',
     group: 'All countries'
   }, {
     code: 'UZ',
@@ -33037,6 +33277,7 @@ var SharedConfig = function () {
     currency: 'UZS',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'VU',
@@ -33045,6 +33286,7 @@ var SharedConfig = function () {
     currency: 'VUV',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'VA',
@@ -33053,6 +33295,7 @@ var SharedConfig = function () {
     currency: 'EUR',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'EU',
     group: 'All countries'
   }, {
     code: 'VE',
@@ -33061,6 +33304,7 @@ var SharedConfig = function () {
     currency: 'VES',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'SA',
     group: 'All countries'
   }, {
     code: 'VN',
@@ -33069,6 +33313,7 @@ var SharedConfig = function () {
     currency: 'VND',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'WF',
@@ -33077,6 +33322,7 @@ var SharedConfig = function () {
     currency: 'XPF',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'OC',
     group: 'All countries'
   }, {
     code: 'EH',
@@ -33085,6 +33331,7 @@ var SharedConfig = function () {
     currency: 'MAD',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'YE',
@@ -33093,6 +33340,7 @@ var SharedConfig = function () {
     currency: 'YER',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AS',
     group: 'All countries'
   }, {
     code: 'ZM',
@@ -33101,6 +33349,7 @@ var SharedConfig = function () {
     currency: 'ZMW',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }, {
     code: 'ZW',
@@ -33109,6 +33358,7 @@ var SharedConfig = function () {
     currency: 'ZWL',
     units: 'metric',
     priceIncludesTax: true,
+    continent: 'AF',
     group: 'All countries'
   }]; // selects country data from commerceCountryList based on COMMERCE_SUPPORTED_COUNTRY_LIST
 
@@ -35883,6 +36133,36 @@ var SharedConfig = function () {
     name: 'Blank Site',
     description: 'Start from a blank canvas — and build exactly what you’re envisioning.',
     starter: true
+  };
+  api.vatVerifiers = {
+    AT: /ATU\d{9}/,
+    BE: /BE[01]\d{9}/,
+    BG: /BG\d{9,10}/,
+    CY: /CY\d{8}[A-Z]/,
+    CZ: /CZ\d{8,10}/,
+    DE: /DE\d{9}/,
+    DK: /DK(?:[- ]*\d\d){4}/,
+    EE: /EE\d{9}/,
+    EL: /EL\d{9}/,
+    ES: /ES[A-Z\d]\d{7}[A-Z\d]/,
+    FI: /FI\d{8}/,
+    FR: /FR[A-Z\d]{2}[- ]*\d{9}/,
+    HR: /HR\d{11}/,
+    HU: /HU\d{8}/,
+    IE: /IE(?:\d[A-Z\d+*]\d{5}[A-Z]|\d{7}WI)/,
+    IT: /IT\d{11}/,
+    LT: /LT\d{9}(?:\d{3})?/,
+    LU: /LU\d{8}/,
+    LV: /LV\d{11}/,
+    MT: /MT\d{8}/,
+    NL: /NL[A-Z\d]{12}/,
+    PL: /PL\d{10}/,
+    PT: /PT\d{9}/,
+    RO: /RO\d{2,10}/,
+    SE: /SE\d{12}/,
+    SI: /SI\d{8}/,
+    SK: /SK\d{10}/,
+    XI: /XI(?:\d{3}[- ]*\d{4}[- ]*\d{2}(?:[- ]*\d{3})?|(?:GD|HA)\d{3})/
   }; // TODO: [Showcase Collections] This is only Proof-of-Concept. Values
   //  hardcoded here should be refined and, later on, defined in a database.
 
@@ -36024,6 +36304,7 @@ var SharedConfig = function () {
     target.stripeCountryCodes = api.stripeCountryCodes;
     target.stripeCurrencyCodes = api.stripeCurrencyCodes;
     target.stripeCurrencyList = api.stripeCurrencyList;
+    target.vatVerifiers = api.vatVerifiers;
     target.webflowNodeInstanceIdAttr = api.webflowNodeInstanceIdAttr;
     target.showcaseCollectionsConfig = api.showcaseCollectionsConfig;
   } // Export commonjs module
@@ -69049,7 +69330,12 @@ var isPlaceOrderButtonEvent = function isPlaceOrderButtonEvent(_ref5) {
 
 var isApplyDiscountFormEvent = function isApplyDiscountFormEvent(_ref6) {
   var target = _ref6.target;
-  return target instanceof Element && target.getAttribute(_constants.DATA_ATTR_NODE_TYPE) === _constants.NODE_TYPE_COMMERCE_CHECKOUT_DISCOUNT_FORM;
+
+  if (target instanceof Element && target.getAttribute(_constants.DATA_ATTR_NODE_TYPE) === _constants.NODE_TYPE_COMMERCE_CHECKOUT_DISCOUNT_FORM) {
+    return target;
+  } else {
+    return false;
+  }
 };
 
 var isFormInsideCheckoutContainerEvent = function isFormInsideCheckoutContainerEvent(_ref7) {
@@ -69321,8 +69607,20 @@ var handleApplyDiscount = function handleApplyDiscount(event, apolloClient) {
 
   event.stopImmediatePropagation(); // do not trigger submission of any other forms (we have forms in forms :())
 
-  var inputEl = (0, _commerceUtils.findElementByNodeType)(_constants.NODE_TYPE_COMMERCE_CHECKOUT_DISCOUNT_INPUT);
-  var errorStateEl = (0, _commerceUtils.findElementByNodeType)(_constants.NODE_TYPE_COMMERCE_CHECKOUT_ERROR_STATE);
+  var currentTarget = event.currentTarget;
+
+  if (!(currentTarget instanceof Element)) {
+    return;
+  }
+
+  var inputEl = (0, _commerceUtils.findElementByNodeType)(_constants.NODE_TYPE_COMMERCE_CHECKOUT_DISCOUNT_INPUT, currentTarget);
+  var checkoutFormContainer = (0, _commerceUtils.findClosestElementByNodeType)(_constants.NODE_TYPE_COMMERCE_CHECKOUT_FORM_CONTAINER, currentTarget) || (0, _commerceUtils.findClosestElementByNodeType)(_constants.NODE_TYPE_COMMERCE_PAYPAL_CHECKOUT_FORM_CONTAINER, currentTarget);
+
+  if (!checkoutFormContainer) {
+    return;
+  }
+
+  var errorStateEl = (0, _commerceUtils.findElementByNodeType)(_constants.NODE_TYPE_COMMERCE_CHECKOUT_ERROR_STATE, checkoutFormContainer);
 
   if (!(inputEl instanceof HTMLInputElement && errorStateEl instanceof HTMLElement)) {
     return;
@@ -69336,7 +69634,7 @@ var handleApplyDiscount = function handleApplyDiscount(event, apolloClient) {
     errorStateEl.style.display = 'none';
     (0, _commerceUtils.triggerRender)(null);
   })["catch"](function (error) {
-    return (0, _checkoutUtils.showErrorMessageForError)(error);
+    return (0, _checkoutUtils.showErrorMessageForError)(error, checkoutFormContainer);
   });
 };
 
@@ -73217,7 +73515,7 @@ Webflow.define('navbar', module.exports = function ($, _) {
     var config = data.config;
     var animation = config.animation;
 
-    if (animation === 'none' || !tram.support.transform) {
+    if (animation === 'none' || !tram.support.transform || config.duration <= 0) {
       immediate = true;
     }
 
