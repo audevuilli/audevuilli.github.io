@@ -1964,7 +1964,7 @@ figcaption {
   opacity: 0.8;
 }
 
-.size1-text {
+.h1-text {
   margin-top: 20px;
   margin-bottom: 25px;
   font-size: 44px;
@@ -1973,13 +1973,13 @@ figcaption {
   white-space: normal;
 }
 
-.size1-text.size1-top-clear {
+.h1-text.size1-top-clear {
   margin-top: 0px;
   font-size: 40px;
   font-weight: 500;
 }
 
-.size1-text.size1-bottom-clear {
+.h1-text.size1-bottom-clear {
   margin-bottom: 0px;
 }
 
@@ -2230,7 +2230,7 @@ figcaption {
 .button-label {
   display: inline-block;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .text-label {
@@ -5069,7 +5069,19 @@ figcaption {
 }
 
 .link-block {
+  position: static;
+  width: 100px;
+  height: 100px;
   margin-bottom: 15px;
+}
+
+.link-block.content17-author-pic {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0%;
+  top: 0px;
+  right: 0%;
+  bottom: 0%;
 }
 
 .link-block.content17-author-pic.content17-image-1 {
@@ -5105,6 +5117,36 @@ figcaption {
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.heading {
+  margin-top: 0px;
+}
+
+.h5 {
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+.link-block-h5 {
+  text-decoration: none;
+}
+
+.link-block-h5:hover {
+  opacity: 0.7;
+}
+
+.link-block-h4 {
+  text-decoration: none;
+}
+
+.link-block-h4:hover {
+  opacity: 0.7;
 }
 
 @media screen and (max-width: 991px) {
@@ -5697,7 +5739,7 @@ figcaption {
     margin-bottom: -10px;
   }
 
-  .size1-text {
+  .h1-text {
     font-size: 34px;
     line-height: 42px;
   }
@@ -6128,7 +6170,7 @@ figcaption {
     margin-bottom: -18px;
   }
 
-  .size1-text.size1-top-clear {
+  .h1-text.size1-top-clear {
     font-size: 26px;
   }
 
@@ -7388,7 +7430,7 @@ figcaption {
   grid-row-start: span 1;
 }
 
-#w-node-_2c2f0733-769b-1cf0-70f7-a7d27f6901ee-83c0dba5 {
+#w-node-ddc6e55d-d304-35ac-b297-1cbc17726e2f-83c0dba5 {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
@@ -8133,7 +8175,7 @@ figcaption {
     grid-row-end: span 1;
   }
 
-  #w-node-_2c2f0733-769b-1cf0-70f7-a7d27f6901ee-83c0dba5 {
+  #w-node-ddc6e55d-d304-35ac-b297-1cbc17726e2f-83c0dba5 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
@@ -8704,7 +8746,7 @@ figcaption {
     grid-row-start: span 1;
   }
 
-  #w-node-_2c2f0733-769b-1cf0-70f7-a7d27f6901ee-83c0dba5 {
+  #w-node-ddc6e55d-d304-35ac-b297-1cbc17726e2f-83c0dba5 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
@@ -9136,7 +9178,7 @@ figcaption {
     grid-column-end: span 12;
   }
 
-  #w-node-_2c2f0733-769b-1cf0-70f7-a7d27f6901ee-83c0dba5 {
+  #w-node-ddc6e55d-d304-35ac-b297-1cbc17726e2f-83c0dba5 {
     -ms-grid-column: span 7;
     grid-column-start: span 7;
     -ms-grid-column-span: 7;
