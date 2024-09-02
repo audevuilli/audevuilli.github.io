@@ -2923,6 +2923,8 @@ figcaption {
   }
 
   .contact-link-wrapper {
+    grid-column-gap: .6rem;
+    grid-row-gap: .6rem;
     flex-flow: wrap;
     justify-content: flex-start;
   }
