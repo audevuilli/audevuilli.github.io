@@ -1998,7 +1998,7 @@ figcaption {
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
   grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fit, minmax(5%, 30%));
+  grid-template-columns: repeat(auto-fit, minmax(5%, 31%));
   grid-auto-columns: minmax(10%, 50%);
   width: 100%;
   display: grid;
@@ -2253,7 +2253,7 @@ figcaption {
 
 .small-text.white.motto {
   letter-spacing: -.2px;
-  font-size: .94rem;
+  font-size: .9rem;
 }
 
 .small-text.bold {
@@ -4022,7 +4022,7 @@ figcaption {
   justify-self: auto;
 }
 
-#w-node-_1f759685-a297-830d-781c-7de6cafcb01f-f0f71a81, #w-node-_38dcd474-faef-7618-0cdf-857575daa1be-f0f71a81, #w-node-_1f759685-a297-830d-781c-7de6cafcaff8-f0f71a81, #w-node-_1f759685-a297-830d-781c-7de6cafcb005-f0f71a81, #w-node-bfb07399-ab64-e4d3-6c97-65ebdce8d7dc-f0f71a81, #w-node-_1f759685-a297-830d-781c-7de6cafcb012-f0f71a81 {
+#w-node-_1f759685-a297-830d-781c-7de6cafcb01f-f0f71a81, #w-node-_38dcd474-faef-7618-0cdf-857575daa1be-f0f71a81, #w-node-_1f759685-a297-830d-781c-7de6cafcaff8-f0f71a81, #w-node-_1f759685-a297-830d-781c-7de6cafcb005-f0f71a81, #w-node-_01045e00-7e48-636d-d699-34cd0f427242-f0f71a81, #w-node-bfb07399-ab64-e4d3-6c97-65ebdce8d7dc-f0f71a81, #w-node-_1f759685-a297-830d-781c-7de6cafcb012-f0f71a81 {
   justify-self: end;
 }
 
